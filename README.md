@@ -13,7 +13,9 @@ We start with Simulated data and make some analysis using similarity and a dimen
 
 Next, we used some clustering algorithm (Kmeans, Birch,...) to group the data allowing us to invert a less important number of spectra in order to obtain the thicknesses.
 
-For the real data, we only used the Birch algorithm. The latter gave us better results in a shorter time.
+For the real data, we only used the Birch algorithm who gave us better results in a shorter time.
+
+Working with an optical model requires us to use refractive indices (nk and csv files). For other materials, they can be found on this site: https://refractiveindex.info/ .
 
 References : 
 - Steven J Byrnes. Multilayer optical calculations. arXiv preprint arXiv :1603.02720,2016.
